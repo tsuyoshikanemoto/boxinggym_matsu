@@ -1,0 +1,966 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style-type: none;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style: none;
+}
+.cmn-title{
+  text-align: center;
+  margin-top: 50px;
+}
+.cmn-subtitle{
+  text-align: center;
+}
+img{
+width: 100%;
+}
+/* ヘッダー */
+.top-image{
+  background-image: url(../images/top-image.png);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.top-image h2{
+position: relative;
+top: 50%;
+text-align: center;
+color: bisque;
+text-shadow: 1px 1px 4px aliceblue;
+}
+.topimg-logo-sm{
+display: none;
+}
+img#call-img {
+  width: 4rem;
+}
+.moveToTop{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 1;
+}
+.top-nav{
+  display: flex;
+  justify-content: space-between;
+}
+img#toplogo-sm {
+  position: absolute;
+  width: 4rem;
+  top: 0;
+  left: 40%;
+}
+.topnav-pc{
+  display: none;
+}
+
+.fa-square-twitter{
+  color: skyblue;
+}
+.fa-instagram{
+  color: blueviolet;
+}
+/* 特徴 */
+.about-feature{
+padding: 0 20px;
+}
+h3.feature-subtitle {
+  text-align: center;
+  margin-top: 2rem;
+}
+.feature-image {
+  text-align: center;
+}
+.feature-subtitle-pc{
+  display: none;
+}
+.feature-headline{
+text-align: center;
+}
+/* 設備紹介 */
+.about-equipment{
+padding: 0 10px;
+}
+p.equipment-text {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* コースについて */
+.course{
+padding:0 16px;
+}
+h3.course-name {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+.course-name-pc{
+  display: none;
+}
+
+/* 選手について */
+/*==================================================
+スライダーのためのcss
+===================================*/
+
+/* 試合結果・予定 */
+input#kye {
+  border: solid 1px #222;  
+  border-radius: 4px;
+}
+.game-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+td.reseult-item {
+  padding: 3px;
+}
+form#result-form {
+  text-align: center;
+}
+h2.game-result {
+text-align: center;
+}
+iframe {
+  width: 100%;
+}
+.game-schedule {
+  width: 90%;
+  margin: 0 auto;
+}
+/* 無料体験 */
+section.about-taiken {
+  padding: 0 16px;
+  }
+p.free-text {
+  text-align: center;
+  background: #ffa50094;
+  border-radius: 10px;
+  }
+  span#red {
+    color: red;
+  }
+  .complete-beginner{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .free-applicant {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .applicant-text{
+  background-color: #00e4ffd4;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  }
+.applicant-text:active{
+  box-shadow:none;
+  position: relative;
+  top:5px;
+}
+
+  /* 入会案内について */
+    .necessary-ad {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    }
+
+    .necessary-ad {
+    text-align: center;
+    }
+    h3.necessary-title {
+    font-size: 1.3rem;
+    }
+    li.necessary-item {
+    font-size: 1.3rem;
+    }
+    .necessary-price {
+    text-align: center;
+    }
+    ul.price-list {
+    margin-top: 20px;
+    }
+    li.price-item {
+    display: flex;
+    margin: 10px 0;
+    }
+    p.orange-item {
+    background-color: orange;
+    border-radius: 3%;
+    color: white;
+    width: 178px;
+    text-align: center;
+    padding: 5px 0; 
+    }
+    p.freeprice-text {
+    width: 380px;
+    }
+    p.hopeprice-text {
+    width: 500px;
+    }
+
+    p.online-procedure {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    }
+    p.methodprice-text {
+    width: 447px;
+    }
+    h3.online-pay {
+    text-align: center;
+    margin-top: 20px;
+    }
+    .online-applicant {
+    text-align: center;
+    margin-top: 30px;
+    }
+
+    span.online-text {
+    background-color: green;
+    padding: 20px;
+    color: white;
+    }
+    /* 入会について */
+    .about-experiment{
+    padding: 0 20px;
+    }
+    section.price {
+    padding:0 20px;
+    }
+    p.first-end-price {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    font-weight: bold;
+    }
+    p.price-free {
+    text-align: center;
+    font-size: 1.3rem;
+    }
+    h2.monthly-title {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 20px;
+    }
+    .monthly-list {
+    border: solid 7px #ffeb3b;
+    padding: 0px 18px;
+    }
+    p.monthly-subtitle {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: orange;
+    text-align: center;
+    }
+    
+    h3.monthly-blue {
+    font-size: 1.2rem;
+    color: blue;
+    text-align: center;
+    }
+    p.monthly-text {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    }
+    h3.monthly-green {
+    color: green;
+    text-align: center;
+    }
+    h3.monthly-red {
+    font-size: 1.2rem;
+    color: red;
+    text-align: center;
+    }
+    /* 割引・レンタル制度 */
+    .discount-rental{
+    padding: 0 14px;
+    }
+    h3.dis-rental-list {
+    text-align: center;
+    font-size: 1.5rem;
+    }
+    p.dis-renta-item {
+    margin: 15px 0;
+    text-align: center;
+    }
+    .rental-puroduct{
+    border-collapse: collapse;
+    margin: 2rem auto;
+    }
+    .rental-item {
+    padding: 5px;
+    border: 1px solid #333;
+    font-size: 0.8rem;
+    padding: 5px 30px;
+    }
+    .rental-price {
+    padding: 5px;
+    border: 1px solid #333;
+    font-size: 0.8rem;
+    background-color:#ffc107e8;
+    padding: 0 3rem;
+    }
+    /* お客様からの声 */
+    .testmonial{
+    text-align: center;
+    padding: 0 16px;
+    }
+    h3.premium-manname {
+    font-size: 1rem;
+    }
+    h4.weight-west {
+    font-size: 1rem;
+    margin-top: 5px;
+    }
+    span.weight-west-red {
+    color: red;
+    }
+    p.testmonial-text {
+    border: solid 5px lightgray;
+    padding: 0px 10px;
+    }
+    h3.geust-name  {
+    font-size: 1rem;
+    margin: 20px 0;
+    }
+    /* アクセス */
+    li.adress-list {
+    font-size: 1.0rem;
+    margin: 10px;
+    text-align: center;
+    }
+    .map {
+    position: relative;
+    height: 0;
+    padding-top: 75%; /* 比率を4:3に固定 */
+    }
+    .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    /* フッター */
+    footer {
+    margin-top: 50px;
+    background: #a09999;
+    padding-top: 20px;
+    }
+    .footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+    }
+    li.footer-item a{
+      font-size: 0.7rem;
+      color:white;
+      }
+    img#footerlogo-img {
+    width: 70px;
+    }
+    .footer-sns {
+      display: flex;
+      justify-content: space-between;
+  }
+    p.copyright {
+    text-align: right;
+    font-size: 0.6rem;
+    }
+    /* メディアクエリ */
+@media screen and (min-width:768px) {
+    .cmn-title{
+      text-align: center;
+      font-size: 4rem;
+      letter-spacing: 5px;
+      margin-top:70px;    
+    }
+    .cmn-subtitle {
+      font-size: 2rem;
+      text-align: center;
+   }
+    .top-image{
+    height: 800px;
+    }
+    .topimg-logo-sm{
+      display: block;
+      }
+   .topimg-logo-sm img{
+   width: 20%;
+  }
+    header{
+    background-color: white;
+    }
+    .top-image{
+    text-align: center;
+    }
+    .top-image h2 {
+      top: 32%;
+      font-size: 3.3rem;
+    }
+    #logo-img{
+    width: 20%;
+    }
+    .topnav-pc{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+    }
+    .topnav-sm{
+      display: none;
+    }
+    .top-nav {
+      padding-top: 5px;
+    }
+
+    .top-item a{
+   font-weight: bold;
+    }
+    #call-img{
+      width: 80px;
+    }
+ 
+    span.equipment-message {
+      padding: 30px;
+    }
+    h3.feature-headline {
+    font-size: 2rem;
+    text-align: center;
+    }
+    p.feature-text {
+    font-size: 1.6rem;
+    } 
+    h3.feature-subtitle {
+      font-size: 2rem;
+    }
+    p.equipment-text {
+      font-size: 4.2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    p.course-text {
+    font-size: 1.5rem;
+    }
+    h3.course-name {
+    font-size: 3rem;
+    }
+    img#toplogo-sm {
+    position: absolute;
+    width: 60px;
+    top: 0;
+    left: 0;
+    display: none;
+    }
+   .result-schedule {
+      margin-top: 3rem;
+   }
+    /* 無料体験見学案内 */
+    .free-info {
+    background: url(../images/taikeninfo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    position: relative;
+    }
+    img#taiken-img {
+    display:none;
+    }
+    
+    .free-list1 {
+      position: absolute;
+      bottom: 0px;
+      right: 0;
+  }
+    
+    p.free-text {
+    font-size: 2.2rem;
+    text-align: center;
+    }
+  
+    .complete-beginner{
+    font-size: 2rem;
+    }
+    .free-applicant {
+    font-size: 3rem;
+    text-align: center;
+    }
+    .applicant-text{
+    background-color: #00e4ffd4;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    }
+
+    /* 入会案内について */
+    img#adm-img {
+    width: 90%;
+    }
+    h3.necessary-title {
+    font-size: 2.5rem;
+    }
+    li.necessary-item {
+    font-size: 2rem;
+    }
+    .necessary-ad {
+    margin: 30px 0;
+    font-size: 1.5rem;
+    }
+    h3.price-title {
+    font-size: 2.5rem;
+    }
+    li.price-item {
+    display: flex;
+    margin: 20px 0;
+    text-align: left;
+    padding: 0 20px;
+    }
+
+    h2.about-admission {
+    text-align: center;
+    font-size: 2rem;
+    }
+
+    p.orange-item {
+    font-size: 2rem;
+    }
+    p.freeprice-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    }
+    p.hopeprice-text {
+    width: 500px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    }
+    p.methodprice-text {
+    width: 447px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    }
+    h3.online-pay {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    }
+    span.online-text {
+    background-color: green;
+    font-size: 3rem;
+    padding: 20px 45px;
+    border-radius: 10px;
+    color: white;
+    }
+    p.first-end-price {
+    font-size: 2.2rem;
+    }
+    p.price-free {
+    text-align: center;
+    font-size: 2rem;
+    }
+    h2.monthly-title {
+    font-size: 2.2rem;
+    text-align: center;
+    }
+    p.monthly-subtitle {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    color: orange;
+    }
+    h3.monthly-blue {
+    font-size: 2.5rem;
+    color: blue;
+    }
+    p.monthly-text {
+    font-size: 2rem;
+    }
+    h3.monthly-green {
+    font-size: 2.3rem;
+    color: green;
+    }
+    h3.monthly-red {
+    font-size: 2.5rem;
+    color: red;
+    }
+
+    /* 割引・レンタル制度 */
+
+    h3.dis-rental-list {
+    font-size: 2.5rem;
+    }
+    p.dis-renta-item {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 1.6rem;
+    }
+    th.rental-item {
+      font-size: 2rem;
+      padding: 1rem 0;
+   }
+    th, td {
+    padding: 5px;
+    border: 1px solid #333;
+    font-size: 2.3rem;
+    padding: 5px 100px;
+    }
+    th {
+    font-size: 2.3rem;
+    padding: 0 50px;
+    }
+    th.rental-item {
+      font-size: 2rem;
+      padding: 1rem 4rem;
+  }
+    td.rental-price {
+      font-size: 2rem;
+      text-align: center;
+      font-weight: bold;
+      padding: 0 8rem;
+    }
+    /* お客様からの声 */
+    h4.weight-west {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5px;
+    }
+    p.testmonial-text {
+    font-size: 1.4rem;
+    }
+    h3.geust-name {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    }
+    .map {
+    position: relative;
+    width: 90%;
+    height: 0;
+    margin: 0 auto;
+    padding-top: 75%;
+    }
+    li.adress-list {
+    font-size: 2.5rem;
+    }
+    li.footer-item {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    }
+    img#footerlogo-img {
+    width: 120px;
+    }
+  /* footer */
+    li.footer-item a {
+      font-size: 1.3rem;
+  }
+  p.copyright {
+    font-size: 1.2rem;
+}
+}
+    @media screen and (min-width:1024px) {
+   
+    .top-item a {
+    font-size: 1.3rem;
+    }
+    .top-text {
+    font-size: 4rem;
+    }
+    .feature-subtitle{
+    display: none;
+    }
+    .feature-subtitle-pc{
+    display: block;
+    text-align: center;
+    }
+    h3.feature-headline {
+    font-size: 1rem;
+    }
+    p.feature-text {
+    font-size: 1rem;
+    }
+    li.feature {
+    display: block; 
+    width: 33%;
+    padding: 0 16px;
+    }
+    ul.feature-list {
+    display: flex;
+    justify-content: space-between;
+    }
+    .feature-image {
+    width:100%;
+    }
+    .fuature-list {
+    width: 100%;
+    }
+    h3.course-name {
+    display: none;
+    }
+    .course-name-pc{
+    display: block;
+    }
+    li.course-item {
+    display: block;
+    }
+    ul.course-list {
+    display: flex;
+    justify-content: space-between;
+    }
+    div#course-images {
+      width: 100%;
+    }
+    img.course-img {
+    width: 100%;
+    }
+    h3.course-name-pc {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+    li.course-item {
+    width: 33%;
+    padding: 0 13px;
+    }  
+    p.course-text{
+    font-size: 1rem;
+    }
+    .free-list1 {
+      top: 39pc;
+      right: 7pc;
+      width: 80%;
+    }
+    .free-list2 {
+    position: relative;
+    top: 31pc;
+    font-size: 2rem;
+    }
+    p.free-text {
+    font-size: 2rem;
+    background: #ffa500ad;
+    }
+    .admission-info {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    }
+     h3.necessary-title {
+      font-size: 2rem;
+    }
+    /* 無料体験 */
+    .free-info {
+    height: 800px;
+    margin-top: 2rem;
+    }
+    /* 入会について */
+    .admission-img {
+      width: 50%;
+  }
+    .ad-content {
+      width: 50%;
+    }
+    .necessary-ad {
+      margin: 13px 0;
+    }
+   
+    li.necessary-item {
+      font-size: 1.7rem;
+    }
+    h3.price-title {
+      font-size: 2rem;
+    }
+    ul.price-list {
+      margin-top: 20px;
+    }
+    li.price-item {
+      margin: 13px 0;
+    }
+    p.orange-item {
+      font-size: 1.4rem;
+    }
+    p.freeprice-text {
+      font-size: 1.6rem;
+    }
+    p.hopeprice-text {
+      font-size: 1.2rem;
+    }
+    p.methodprice-text {
+    font-size: 1.5rem;
+    }
+     /* 料金について */
+    .price-contents {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+    }
+    img#price-images {
+    width: 100%;
+    }
+    p.monthly-subtitle {
+    font-size: 1.2rem;
+    }
+    .monthly-list {
+    width: 90%;
+    }
+    .price-img {
+      width: 50%;
+  }
+  .month-price {
+    width: 50%;
+  }
+  img#price-images {
+    width: 90%;
+  } 
+    h3.monthly-blue {
+      font-size: 1.9rem;
+  }
+    h3.monthly-green {
+      font-size: 1.7rem;
+  }
+    h3.monthly-red {
+      font-size: 1.7rem;
+    }
+    p.monthly-text {
+      font-size: 1.3rem;
+    }
+  
+    .dis-rentlsystem {
+    display: flex;
+    margin-top: 2rem;
+    gap: 0 2rem;
+    }
+    .dis-system {
+      width: 50%;
+   }
+    .dis-rental-img {
+      width: 50%;
+  }
+  h3.dis-rental-list {
+    margin-top: 2rem;
+    }
+      table.rental-puroduct {
+        width: 80%;
+    }
+    th.rental-item {
+      font-size: 2rem;
+      padding: 1rem 3rem;
+    }
+    td.rental-price {
+      font-size: 2rem;
+      text-align: center;
+      font-weight: bold;
+    }
+    th {
+    font-size: 1.3rem;
+    }
+    td {
+    font-size: 1.3rem;
+    }
+    .testmonial-list {
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+    }
+    h3.geust-name {
+    font-size: 1.2rem;
+    }
+    h4.weight-west {
+      font-size: 1.5rem;
+    }
+    .premium-man {
+    width: 50%;
+    }
+    .premium-woman {
+    width: 50%;
+    }
+    li.footer-item a{
+      font-size: 1.5rem;
+    }
+  }
+
+    .arrow {
+      display:inline-block;
+      border-radius:50%;
+      width:1em;
+      height:1em;
+      cursor:pointer;
+      border:1px solid #808080;
+      vertical-align:middle;
+      margin-bottom:4px;
+      top:3px;
+    }
+    .left {
+      left:2px;
+    }
+    .right {
+      right:2px;
+    }
+    .arrow:before {
+      content:'';
+      position:absolute;
+      width:0.4em;
+      height:0.4em;
+      border-left:1px solid #808080;
+      border-bottom:1px solid #808080;
+    }
+    .left:before {
+      top:28%;
+      left:35%;
+      transform:rotate(45deg);
+    }
+    .right:before {
+      top:28%;
+      left:20%;
+      transform:rotate(-135deg);
+    }
+    .arrow:hover {
+      background-color:#808080;
+    }
+    .arrow:hover:before {
+      border-color:white;
+    }
+
+    div#js-search-result {
+      position: relative;
+      padding: 0 1.5em 0 0.5em;
+      border: 1px solid #cccccc;
+      border-radius: 0.5em;
+      max-width: 372px;
+      overflow: scroll;
+      display: flex;
+  }
+  .article{
+    white-space: nowrap;
+    margin: 0 0.1em 0 1em;
+    scroll-behavior: smooth;
+    scroll-snap-type: inline;
+    animation-name: slide_cont4; /* キーフレーム使用 */
+    animation-duration: 5s; /* アニメーション時間を5秒に設定 */
+    animation-delay: 0s; /* アニメーション開始までの時間を0秒に設定 */
+    animation-iteration-count: infinite;
+
+}
+div#js-search-result {
+  background: oldlace;
+  margin: 2rem auto;
+}
+

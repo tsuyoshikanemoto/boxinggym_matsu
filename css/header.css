@@ -1,0 +1,86 @@
+/* スマホハンバーガーメニュー */
+.nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background: #fff5ee;
+  width: 200px;
+  height: 70%;
+  margin-top: 0;
+  padding: 100px 30px;
+  box-shadow: 0 0 5px #555;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(300px, 0);
+  transition: 0.3s;
+}
+
+.nav.active{
+opacity: 1;
+visibility: visible;
+transform: translate(0,0);
+}
+
+li.mene-list {
+  border-bottom: 2px dotted #373737;
+  font-size: 20px;
+  margin: 15px 0;
+}
+a{
+  display: block;
+}
+
+.menuButton {
+  display: block;
+  height: 53px;
+  width: 61px;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  z-index: 2;
+  border-radius: 7px;
+}
+.menuButton div{
+  height: 3px;
+  width: 30px;
+  border-radius: 30px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: 0.3s;
+}
+.menuButton div:first-child{
+  transform: translate(-50%,-15px);
+}
+.menuButton div:last-child{
+  transform: translate(-50%,13px);
+}
+.menuButton.active div:first-child{
+  transform: rotate(45deg) translate(-14px,14.5px);
+}
+.menuButton.active div:nth-child(2){
+  opacity: 0;
+}
+.menuButton.active div:last-child{
+  transform: rotate(-45deg) translate(-14.5px,-14.5px);
+}
+.mask{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #cde;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.mask.active{
+  opacity: 0.5;
+  visibility: visible;
+}
+
+/* ここまで */
